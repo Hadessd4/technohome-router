@@ -1,0 +1,202 @@
+{
+  "TF-IDF + LogReg": {
+    "technical_support": {
+      "precision": 0.7861,
+      "recall": 0.98,
+      "f1-score": 0.8724,
+      "support": 150
+    },
+    "order_delivery": {
+      "precision": 0.6574,
+      "recall": 0.9467,
+      "f1-score": 0.776,
+      "support": 150
+    },
+    "billing_payments": {
+      "precision": 0.6777,
+      "recall": 0.9714,
+      "f1-score": 0.7984,
+      "support": 210
+    },
+    "returns_warranty": {
+      "precision": 0.9247,
+      "recall": 0.9556,
+      "f1-score": 0.9399,
+      "support": 90
+    },
+    "product_info": {
+      "precision": 0.3734,
+      "recall": 0.9833,
+      "f1-score": 0.5413,
+      "support": 180
+    },
+    "installation_setup": {
+      "precision": 0.4871,
+      "recall": 0.9417,
+      "f1-score": 0.642,
+      "support": 120
+    },
+    "account_management": {
+      "precision": 0.6797,
+      "recall": 0.9905,
+      "f1-score": 0.8062,
+      "support": 210
+    },
+    "human_agent": {
+      "precision": 0.9801,
+      "recall": 0.295,
+      "f1-score": 0.4535,
+      "support": 1000
+    }
+  },
+  "FastText + FFN": {
+    "technical_support": {
+      "precision": 0.7944,
+      "recall": 0.9533,
+      "f1-score": 0.8667,
+      "support": 150
+    },
+    "order_delivery": {
+      "precision": 0.4841,
+      "recall": 0.8133,
+      "f1-score": 0.607,
+      "support": 150
+    },
+    "billing_payments": {
+      "precision": 0.7576,
+      "recall": 0.9524,
+      "f1-score": 0.8439,
+      "support": 210
+    },
+    "returns_warranty": {
+      "precision": 0.8252,
+      "recall": 0.9444,
+      "f1-score": 0.8808,
+      "support": 90
+    },
+    "product_info": {
+      "precision": 0.4497,
+      "recall": 0.9444,
+      "f1-score": 0.6093,
+      "support": 180
+    },
+    "installation_setup": {
+      "precision": 0.2763,
+      "recall": 0.875,
+      "f1-score": 0.42,
+      "support": 120
+    },
+    "account_management": {
+      "precision": 0.7796,
+      "recall": 0.9095,
+      "f1-score": 0.8396,
+      "support": 210
+    },
+    "human_agent": {
+      "precision": 0.9448,
+      "recall": 0.291,
+      "f1-score": 0.445,
+      "support": 1000
+    }
+  },
+  "BERT (BERTurk)": {
+    "technical_support": {
+      "precision": 0.6098,
+      "recall": 1.0,
+      "f1-score": 0.7576,
+      "support": 150
+    },
+    "order_delivery": {
+      "precision": 0.5234,
+      "recall": 0.82,
+      "f1-score": 0.639,
+      "support": 150
+    },
+    "billing_payments": {
+      "precision": 0.752,
+      "recall": 0.9095,
+      "f1-score": 0.8233,
+      "support": 210
+    },
+    "returns_warranty": {
+      "precision": 0.6336,
+      "recall": 0.9222,
+      "f1-score": 0.7511,
+      "support": 90
+    },
+    "product_info": {
+      "precision": 0.3175,
+      "recall": 0.8556,
+      "f1-score": 0.4632,
+      "support": 180
+    },
+    "installation_setup": {
+      "precision": 0.2362,
+      "recall": 0.675,
+      "f1-score": 0.3499,
+      "support": 120
+    },
+    "account_management": {
+      "precision": 0.5223,
+      "recall": 0.9476,
+      "f1-score": 0.6734,
+      "support": 210
+    },
+    "human_agent": {
+      "precision": 0.9714,
+      "recall": 0.034,
+      "f1-score": 0.0657,
+      "support": 1000
+    }
+  },
+  "DistilBERT (Quantized)": {
+    "technical_support": {
+      "precision": 0.7641,
+      "recall": 0.9933,
+      "f1-score": 0.8638,
+      "support": 150
+    },
+    "order_delivery": {
+      "precision": 0.4658,
+      "recall": 0.9533,
+      "f1-score": 0.6258,
+      "support": 150
+    },
+    "billing_payments": {
+      "precision": 0.8584,
+      "recall": 0.9238,
+      "f1-score": 0.8899,
+      "support": 210
+    },
+    "returns_warranty": {
+      "precision": 0.8019,
+      "recall": 0.9444,
+      "f1-score": 0.8673,
+      "support": 90
+    },
+    "product_info": {
+      "precision": 0.7659,
+      "recall": 0.8722,
+      "f1-score": 0.8156,
+      "support": 180
+    },
+    "installation_setup": {
+      "precision": 0.495,
+      "recall": 0.8333,
+      "f1-score": 0.6211,
+      "support": 120
+    },
+    "account_management": {
+      "precision": 0.8133,
+      "recall": 0.9333,
+      "f1-score": 0.8692,
+      "support": 210
+    },
+    "human_agent": {
+      "precision": 0.9506,
+      "recall": 0.597,
+      "f1-score": 0.7334,
+      "support": 1000
+    }
+  }
+}

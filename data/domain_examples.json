@@ -1,0 +1,542 @@
+[
+  {
+    "text": "DW-6534 bulaşık makinem E3 hata kodu veriyor, ne yapmalıyım?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "tr"
+  },
+  {
+    "text": "My DW-6534 dishwasher is showing error code E3, what should I do?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "en"
+  },
+  {
+    "text": "RF-9200 buzdolabı çok ses yapıyor, kompresör arızası olabilir mi?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "tr"
+  },
+  {
+    "text": "My RF-9200 refrigerator is making a loud buzzing noise, could it be the compressor?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "en"
+  },
+  {
+    "text": "WM-4100 çamaşır makinesi yıkama sırasında duruyor, tamirciye mi göstermeliyim?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "tr"
+  },
+  {
+    "text": "WM-4100 washing machine stops mid-cycle, do I need a technician?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "en"
+  },
+  {
+    "text": "AC-7700 klima uzaktan kumandası çalışmıyor, pil değiştirdim ama hâlâ tepki yok.",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "tr"
+  },
+  {
+    "text": "The remote control for my AC-7700 air conditioner isn't responding even after changing batteries.",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "en"
+  },
+  {
+    "text": "OV-3300 fırınım ısınmıyor, termostat bozulmuş olabilir mi?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "tr"
+  },
+  {
+    "text": "My OV-3300 oven won't heat up, could the thermostat be broken?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "en"
+  },
+  {
+    "text": "Siparişim ne zaman gelecek? Sipariş numaram TH-20240315.",
+    "intent": "order_tracking",
+    "department": "order_delivery",
+    "lang": "tr"
+  },
+  {
+    "text": "When will my order arrive? My order number is TH-20240315.",
+    "intent": "order_tracking",
+    "department": "order_delivery",
+    "lang": "en"
+  },
+  {
+    "text": "DW-6534 siparişimi iptal etmek istiyorum, henüz kargoya verilmedi.",
+    "intent": "order_cancel",
+    "department": "order_delivery",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to cancel my DW-6534 order, it hasn't shipped yet.",
+    "intent": "order_cancel",
+    "department": "order_delivery",
+    "lang": "en"
+  },
+  {
+    "text": "Kargo takip numaramı öğrenebilir miyim? RF-9200 siparişi için.",
+    "intent": "order_tracking",
+    "department": "order_delivery",
+    "lang": "tr"
+  },
+  {
+    "text": "Can I get the tracking number for my RF-9200 order?",
+    "intent": "order_tracking",
+    "department": "order_delivery",
+    "lang": "en"
+  },
+  {
+    "text": "Teslimat adresimi değiştirmek istiyorum, WM-4100 siparişim yoldaymış.",
+    "intent": "order_update",
+    "department": "order_delivery",
+    "lang": "tr"
+  },
+  {
+    "text": "I need to change my delivery address for the WM-4100 order that's already in transit.",
+    "intent": "order_update",
+    "department": "order_delivery",
+    "lang": "en"
+  },
+  {
+    "text": "Siparişim 5 gündür gelmedi, nerede kaldı?",
+    "intent": "order_tracking",
+    "department": "order_delivery",
+    "lang": "tr"
+  },
+  {
+    "text": "My order has been delayed for 5 days, where is it?",
+    "intent": "order_tracking",
+    "department": "order_delivery",
+    "lang": "en"
+  },
+  {
+    "text": "Son faturamın tutarı ne kadar? Ödeme yapmam gerekiyor mu?",
+    "intent": "bill_inquiry",
+    "department": "billing_payments",
+    "lang": "tr"
+  },
+  {
+    "text": "What is the amount on my last invoice? Do I need to make a payment?",
+    "intent": "bill_inquiry",
+    "department": "billing_payments",
+    "lang": "en"
+  },
+  {
+    "text": "Kredi kartımdan çift çekim yapılmış, iade alabilir miyim?",
+    "intent": "payment_issue",
+    "department": "billing_payments",
+    "lang": "tr"
+  },
+  {
+    "text": "I was charged twice on my credit card, can I get a refund?",
+    "intent": "payment_issue",
+    "department": "billing_payments",
+    "lang": "en"
+  },
+  {
+    "text": "Taksit seçenekleriniz neler? AC-7700 için 12 taksit yapılır mı?",
+    "intent": "payment_options",
+    "department": "billing_payments",
+    "lang": "tr"
+  },
+  {
+    "text": "What are your installment options? Can I pay for the AC-7700 in 12 installments?",
+    "intent": "payment_options",
+    "department": "billing_payments",
+    "lang": "en"
+  },
+  {
+    "text": "Fatura tarihim ne zaman? Ödeme gecikirse ne olur?",
+    "intent": "bill_inquiry",
+    "department": "billing_payments",
+    "lang": "tr"
+  },
+  {
+    "text": "When is my bill due date? What happens if I pay late?",
+    "intent": "bill_inquiry",
+    "department": "billing_payments",
+    "lang": "en"
+  },
+  {
+    "text": "Hesabımda şüpheli bir işlem var, dolandırıcılık olabilir.",
+    "intent": "fraud_report",
+    "department": "billing_payments",
+    "lang": "tr"
+  },
+  {
+    "text": "There is a suspicious transaction on my account, it might be fraud.",
+    "intent": "fraud_report",
+    "department": "billing_payments",
+    "lang": "en"
+  },
+  {
+    "text": "WM-4100 çamaşır makinesini iade etmek istiyorum, 14 gün içinde açılmadı.",
+    "intent": "return_request",
+    "department": "returns_warranty",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to return my WM-4100 washing machine, it's within the 14-day window and unopened.",
+    "intent": "return_request",
+    "department": "returns_warranty",
+    "lang": "en"
+  },
+  {
+    "text": "OV-3300 fırınımın garanti süresi doldu mu? Garanti kapsamında tamir yapılır mı?",
+    "intent": "warranty_inquiry",
+    "department": "returns_warranty",
+    "lang": "tr"
+  },
+  {
+    "text": "Has the warranty expired on my OV-3300 oven? Can it be repaired under warranty?",
+    "intent": "warranty_inquiry",
+    "department": "returns_warranty",
+    "lang": "en"
+  },
+  {
+    "text": "Aldığım MW-5500 mikrodalga arızalı geldi, değişim istiyorum.",
+    "intent": "exchange_request",
+    "department": "returns_warranty",
+    "lang": "tr"
+  },
+  {
+    "text": "The MW-5500 microwave I received is defective, I want an exchange.",
+    "intent": "exchange_request",
+    "department": "returns_warranty",
+    "lang": "en"
+  },
+  {
+    "text": "Garanti belgesi nasıl aktifleştirilir? RT-2100 için online kayıt var mı?",
+    "intent": "warranty_inquiry",
+    "department": "returns_warranty",
+    "lang": "tr"
+  },
+  {
+    "text": "How do I activate the warranty? Is there online registration for the RT-2100?",
+    "intent": "warranty_inquiry",
+    "department": "returns_warranty",
+    "lang": "en"
+  },
+  {
+    "text": "RF-9200 buzdolabının enerji tüketim sınıfı nedir?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "tr"
+  },
+  {
+    "text": "What is the energy efficiency rating of the RF-9200 refrigerator?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "en"
+  },
+  {
+    "text": "AC-7700 klima kaç metrekarelik odayı soğutabilir?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "tr"
+  },
+  {
+    "text": "How many square meters can the AC-7700 air conditioner cool?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "en"
+  },
+  {
+    "text": "VC-8800 ile DW-6534 arasındaki fark nedir?",
+    "intent": "product_comparison",
+    "department": "product_info",
+    "lang": "tr"
+  },
+  {
+    "text": "What is the difference between the VC-8800 and DW-6534?",
+    "intent": "product_comparison",
+    "department": "product_info",
+    "lang": "en"
+  },
+  {
+    "text": "MW-5500 mikrodalgada hangi pişirme modları var?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "tr"
+  },
+  {
+    "text": "What cooking modes does the MW-5500 microwave have?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "en"
+  },
+  {
+    "text": "OV-3300 fırının iç hacmi kaç litre? Büyük tepsi sığar mı?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "tr"
+  },
+  {
+    "text": "What is the internal volume of the OV-3300 oven in liters? Will a large tray fit?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "en"
+  },
+  {
+    "text": "WM-4100 çamaşır makinesini kendim kurabilir miyim, yoksa teknisyen mi lazım?",
+    "intent": "installation_help",
+    "department": "installation_setup",
+    "lang": "tr"
+  },
+  {
+    "text": "Can I install the WM-4100 washing machine myself or do I need a technician?",
+    "intent": "installation_help",
+    "department": "installation_setup",
+    "lang": "en"
+  },
+  {
+    "text": "AC-7700 klimayı Wi-Fi'ye nasıl bağlarım? Akıllı ev entegrasyonu var mı?",
+    "intent": "smart_home_setup",
+    "department": "installation_setup",
+    "lang": "tr"
+  },
+  {
+    "text": "How do I connect the AC-7700 air conditioner to Wi-Fi? Is there smart home integration?",
+    "intent": "smart_home_setup",
+    "department": "installation_setup",
+    "lang": "en"
+  },
+  {
+    "text": "RT-2100 router kurulumu için adım adım rehber var mı?",
+    "intent": "setup_guide",
+    "department": "installation_setup",
+    "lang": "tr"
+  },
+  {
+    "text": "Is there a step-by-step setup guide for the RT-2100 router?",
+    "intent": "setup_guide",
+    "department": "installation_setup",
+    "lang": "en"
+  },
+  {
+    "text": "DW-6534 bulaşık makinesinin su bağlantısı nasıl yapılır?",
+    "intent": "installation_help",
+    "department": "installation_setup",
+    "lang": "tr"
+  },
+  {
+    "text": "How do I connect the water supply to the DW-6534 dishwasher?",
+    "intent": "installation_help",
+    "department": "installation_setup",
+    "lang": "en"
+  },
+  {
+    "text": "RF-9200 buzdolabını Google Home ile entegre edebilir miyim?",
+    "intent": "smart_home_setup",
+    "department": "installation_setup",
+    "lang": "tr"
+  },
+  {
+    "text": "Can I integrate the RF-9200 refrigerator with Google Home?",
+    "intent": "smart_home_setup",
+    "department": "installation_setup",
+    "lang": "en"
+  },
+  {
+    "text": "Hesabım kilitlendi, açabilir misiniz?",
+    "intent": "account_locked",
+    "department": "account_management",
+    "lang": "tr"
+  },
+  {
+    "text": "My account is locked, can you unlock it?",
+    "intent": "account_locked",
+    "department": "account_management",
+    "lang": "en"
+  },
+  {
+    "text": "Şifremi unuttum, nasıl sıfırlayabilirim?",
+    "intent": "password_reset",
+    "department": "account_management",
+    "lang": "tr"
+  },
+  {
+    "text": "I forgot my password, how can I reset it?",
+    "intent": "password_reset",
+    "department": "account_management",
+    "lang": "en"
+  },
+  {
+    "text": "Profilimdeki telefon numaramı güncellemek istiyorum.",
+    "intent": "profile_update",
+    "department": "account_management",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to update the phone number on my profile.",
+    "intent": "profile_update",
+    "department": "account_management",
+    "lang": "en"
+  },
+  {
+    "text": "Bildirim tercihlerimi değiştirmek istiyorum, çok fazla e-posta geliyor.",
+    "intent": "preferences_update",
+    "department": "account_management",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to change my notification preferences, I'm getting too many emails.",
+    "intent": "preferences_update",
+    "department": "account_management",
+    "lang": "en"
+  },
+  {
+    "text": "Hesabımı kalıcı olarak silmek istiyorum.",
+    "intent": "account_delete",
+    "department": "account_management",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to permanently delete my account.",
+    "intent": "account_delete",
+    "department": "account_management",
+    "lang": "en"
+  },
+  {
+    "text": "Gerçek bir insanla konuşmak istiyorum, bot yardımcı olmuyor.",
+    "intent": "human_handoff",
+    "department": "human_agent",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to talk to a real person, the bot isn't helping.",
+    "intent": "human_handoff",
+    "department": "human_agent",
+    "lang": "en"
+  },
+  {
+    "text": "Şikâyetim var, müdürünüzle görüşmek istiyorum.",
+    "intent": "escalation",
+    "department": "human_agent",
+    "lang": "tr"
+  },
+  {
+    "text": "I have a complaint and I want to speak with your manager.",
+    "intent": "escalation",
+    "department": "human_agent",
+    "lang": "en"
+  },
+  {
+    "text": "Bu konuyla ilgili hiçbir seçenek işime yaramıyor.",
+    "intent": "out_of_scope",
+    "department": "human_agent",
+    "lang": "tr"
+  },
+  {
+    "text": "None of these options are helpful for my issue.",
+    "intent": "out_of_scope",
+    "department": "human_agent",
+    "lang": "en"
+  },
+  {
+    "text": "VC-8800 süpürgenin filtresi ne sıklıkla değiştirilmeli?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "tr"
+  },
+  {
+    "text": "How often should I replace the filter on the VC-8800 vacuum cleaner?",
+    "intent": "product_specs",
+    "department": "product_info",
+    "lang": "en"
+  },
+  {
+    "text": "RT-2100 router'ımın yazılım güncellemesi var mı?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "tr"
+  },
+  {
+    "text": "Is there a firmware update available for my RT-2100 router?",
+    "intent": "troubleshooting",
+    "department": "technical_support",
+    "lang": "en"
+  },
+  {
+    "text": "Lütfen beni yetkili servise yönlendirin, telefonla görüşmem lazım.",
+    "intent": "human_handoff",
+    "department": "human_agent",
+    "lang": "tr"
+  },
+  {
+    "text": "Please transfer me to an authorized service center, I need to speak on the phone.",
+    "intent": "human_handoff",
+    "department": "human_agent",
+    "lang": "en"
+  },
+  {
+    "text": "MW-5500 mikrodalgam garanti kapsamında mı hâlâ?",
+    "intent": "warranty_inquiry",
+    "department": "returns_warranty",
+    "lang": "tr"
+  },
+  {
+    "text": "Is my MW-5500 microwave still under warranty?",
+    "intent": "warranty_inquiry",
+    "department": "returns_warranty",
+    "lang": "en"
+  },
+  {
+    "text": "İki ayrı sipariş verdim, ikisini birleştirip tek kargoda gönderebilir misiniz?",
+    "intent": "order_update",
+    "department": "order_delivery",
+    "lang": "tr"
+  },
+  {
+    "text": "I placed two separate orders, can you combine them into one shipment?",
+    "intent": "order_update",
+    "department": "order_delivery",
+    "lang": "en"
+  },
+  {
+    "text": "Faturamda yanlış ürün yazıyor, düzeltilmesi lazım.",
+    "intent": "bill_inquiry",
+    "department": "billing_payments",
+    "lang": "tr"
+  },
+  {
+    "text": "My invoice shows the wrong product, it needs to be corrected.",
+    "intent": "bill_inquiry",
+    "department": "billing_payments",
+    "lang": "en"
+  },
+  {
+    "text": "OV-3300 fırının kurulum için hangi priz tipi gerekli?",
+    "intent": "installation_help",
+    "department": "installation_setup",
+    "lang": "tr"
+  },
+  {
+    "text": "What type of outlet does the OV-3300 oven require for installation?",
+    "intent": "installation_help",
+    "department": "installation_setup",
+    "lang": "en"
+  },
+  {
+    "text": "Kullanıcı adımı değiştirmek istiyorum, nasıl yapabilirim?",
+    "intent": "profile_update",
+    "department": "account_management",
+    "lang": "tr"
+  },
+  {
+    "text": "I want to change my username, how do I do that?",
+    "intent": "profile_update",
+    "department": "account_management",
+    "lang": "en"
+  }
+]

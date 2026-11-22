@@ -1,0 +1,9 @@
+streamlit>=1.28
+torch>=2.0
+transformers>=4.35
+datasets
+scikit-learn
+gensim
+numpy
+pandas
+joblib

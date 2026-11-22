@@ -1,0 +1,114 @@
+{
+  "products": [
+    {
+      "code": "DW-6534",
+      "name": "TechnoHome ProClean Dishwasher",
+      "category": "dishwasher",
+      "aliases": {
+        "tr": ["bulaşık makinesi", "bulaşık makinası", "bulaşık mak."],
+        "en": ["dishwasher", "dish washer", "DW6534"]
+      },
+      "common_misspellings": {
+        "bulaşık": ["bulasik", "bulaşik", "bulasık", "bulashik"],
+        "makinesi": ["makinası", "makınesi", "makinası", "makinesı"]
+      }
+    },
+    {
+      "code": "RF-9200",
+      "name": "TechnoHome SmartCool Refrigerator",
+      "category": "refrigerator",
+      "aliases": {
+        "tr": ["buzdolabı", "soğutucu", "dolap"],
+        "en": ["refrigerator", "fridge", "RF9200"]
+      },
+      "common_misspellings": {
+        "buzdolabı": ["buzdolabi", "buz dolabı", "buzdobalı", "buzdolapı"],
+        "soğutucu": ["sogutucu", "sogutucü", "soğutucü"]
+      }
+    },
+    {
+      "code": "WM-4100",
+      "name": "TechnoHome AquaSpin Washing Machine",
+      "category": "washing_machine",
+      "aliases": {
+        "tr": ["çamaşır makinesi", "çamaşır makinası", "çamaşır mak."],
+        "en": ["washing machine", "washer", "WM4100"]
+      },
+      "common_misspellings": {
+        "çamaşır": ["camasir", "çamasır", "camaşır", "çamaşir"],
+        "makinesi": ["makinası", "makınesi", "makinesı"]
+      }
+    },
+    {
+      "code": "AC-7700",
+      "name": "TechnoHome BreezePro Air Conditioner",
+      "category": "air_conditioner",
+      "aliases": {
+        "tr": ["klima", "kliması", "soğutucu", "split klima"],
+        "en": ["air conditioner", "AC unit", "AC7700", "aircon"]
+      },
+      "common_misspellings": {
+        "klima": ["kilma", "clima", "klimma"],
+        "soğutucu": ["sogutucu", "sogutucü"]
+      }
+    },
+    {
+      "code": "OV-3300",
+      "name": "TechnoHome MasterBake Oven",
+      "category": "oven",
+      "aliases": {
+        "tr": ["fırın", "ankastre fırın", "elektrikli fırın"],
+        "en": ["oven", "built-in oven", "OV3300"]
+      },
+      "common_misspellings": {
+        "fırın": ["firin", "fırn", "firın"],
+        "ankastre": ["ankastra", "ankestre", "ankasrte"]
+      }
+    },
+    {
+      "code": "RT-2100",
+      "name": "TechnoHome NetLink Router",
+      "category": "router",
+      "aliases": {
+        "tr": ["router", "yönlendirici", "modem", "internet cihazı"],
+        "en": ["router", "wireless router", "RT2100", "wifi router"]
+      },
+      "common_misspellings": {
+        "yönlendirici": ["yonlendirici", "yönledirici", "yönlendirci"],
+        "modem": ["modum", "moddem"]
+      }
+    },
+    {
+      "code": "MW-5500",
+      "name": "TechnoHome QuickHeat Microwave",
+      "category": "microwave",
+      "aliases": {
+        "tr": ["mikrodalga", "mikrodalga fırın", "mikro"],
+        "en": ["microwave", "microwave oven", "MW5500"]
+      },
+      "common_misspellings": {
+        "mikrodalga": ["mikrodolga", "mirkrodalga", "mikrodalgası", "migrodalga"],
+        "fırın": ["firin", "fırn"]
+      }
+    },
+    {
+      "code": "VC-8800",
+      "name": "TechnoHome TurboVac Vacuum Cleaner",
+      "category": "vacuum_cleaner",
+      "aliases": {
+        "tr": ["elektrikli süpürge", "süpürge", "robot süpürge"],
+        "en": ["vacuum cleaner", "vacuum", "VC8800", "hoover"]
+      },
+      "common_misspellings": {
+        "süpürge": ["supurge", "süpurge", "supürge", "süpüge"],
+        "elektrikli": ["elektrikl", "electricli", "elektirikli"]
+      }
+    }
+  ],
+  "code_pattern": "^[A-Z]{2}-\\d{4}$",
+  "metadata": {
+    "version": "1.0",
+    "brand": "TechnoHome",
+    "supported_languages": ["tr", "en"]
+  }
+}
